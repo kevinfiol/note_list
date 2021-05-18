@@ -33,7 +33,7 @@ function generateNotes(noOfNotes = 1) {
     const MAX_NO_OF_TAGS = 3;
 
     const notes = [];
-    const icons = ['hash.svg', 'list.svg', 'up.svg', 'down.svg']; // from assets folder
+    const icons = ['hash.svg', 'list.svg', 'up.svg', 'down.svg']; // from public/img folder
 
     for (let i = 0; i < noOfNotes; i++) {
         const noOfTags = Math.floor(Math.random() * MAX_NO_OF_TAGS);

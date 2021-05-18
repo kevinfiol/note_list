@@ -1,5 +1,4 @@
 import m from 'mithril';
-
 import Title from './Title';
 import Row from './Row';
 

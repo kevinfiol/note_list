@@ -10,15 +10,15 @@ const Title = {
             <div className="space-x-2">
                 <Btn onclick={reverseSortOrder}>
                     { sortOrder == 'desc'
-                        ? <img src="/assets/up.svg" alt="Sort Asc" />
-                        : <img src="/assets/down.svg" alt="Sort Desc" />
+                        ? <img src="/img/up.svg" alt="Sort Asc" />
+                        : <img src="/img/down.svg" alt="Sort Desc" />
                     }
                 </Btn>
                 <Btn
                     className="bg-blue-600 border-blue-600 hover:bg-blue-800"
                     onclick={addNote}
                 >
-                    <img src="/assets/plus.svg" alt="Add Note" />
+                    <img src="/img/plus.svg" alt="Add Note" />
                 </Btn>
             </div>
         </div>

@@ -14,7 +14,7 @@ const Row = {
             }}
         >
             <div className="row__icon py-1">
-                <img src={`/assets/${note.icon}`} alt="Note Icon" />
+                <img src={`/img/${note.icon}`} alt="Note Icon" />
             </div>
             <div className="row__body w-full">
                 <div className="row__title text-lg font-medium">
